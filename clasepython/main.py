@@ -2,13 +2,13 @@ from clasepython.model.car import Car
 
 def main():
 
-    carro1: Car = Car("Nissan",2020,4)
+    carro: Car = Car("Nissan",2020,4)
 
-    carro1.move(4)
-    carro1.vel(True)
+    carro.move(4)
+    carro.speed(True)
 
-    print(carro1.distance_traveled)
-    print(carro1.__velocidad)
+    print(carro.distance_traveled)
+    print(carro.__velocidad)
 
 
 if __name__ == "__main__":
