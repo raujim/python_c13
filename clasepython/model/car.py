@@ -40,6 +40,6 @@ class Car(VehicleABC):
         if brand in AVAILABLE_CAR_BRANDS:
             self.__brand = brand
         else:
-            print("Inserte una marva válida.")    
+            print("Inserte marca valida.")    
 
 
