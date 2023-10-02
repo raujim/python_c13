@@ -24,7 +24,7 @@ class Car(VehicleABC):
         else:
             self.__distance_traveled += MAX_DISTANCE_CAN_TRAVEL       
 
-    def vel(self, pisarAcelerador) -> None:
+    def speed(self, pisarAcelerador) -> None:
 
         if move(pisarAcelerador == True) :
             self.__velocidad +=  + 10 
